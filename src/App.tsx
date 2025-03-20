@@ -1,9 +1,8 @@
-import { useState } from 'react';
 import AnimationCanvas from './AnimationCanvas';
 import './App.css';
 
 function App() {
-  const [selected, setSelected] = useState<number>(0);
+  // const [selected, setSelected] = useState<number>(0);
 
   return (
     <div style={{position:'relative'}}>
