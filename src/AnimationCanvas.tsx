@@ -89,7 +89,7 @@ function Animation() {
           mixerRef.current = new THREE.AnimationMixer(scene);
 
           // ✅ 첫 번째 애니메이션만 실행
-          actionRef.current = mixerRef.current.clipAction(animations[1]); // 2, 3 사용 가능함다
+          actionRef.current = mixerRef.current.clipAction(animations[2]); // 2, 3 사용 가능함다
           actionRef.current.play();
           actionRef.current.setEffectiveTimeScale(0); // 처음에는 정지
       }
